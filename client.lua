@@ -3,7 +3,6 @@ Citizen.CreateThread(function()
     while true do 
         Citizen.Wait(1)
         if(ped) then
-            -- check to see if ped is aiming then disable the space key 
             if IsPedArmed(ped, 6) or IsPlayerFreeAiming(ped) then
                 DisableControlAction(0, 22, true)
             end
