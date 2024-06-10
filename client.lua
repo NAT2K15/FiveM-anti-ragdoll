@@ -1,3 +1,5 @@
+-- Made by NAT2K15 -- 
+
 local ped;
 Citizen.CreateThread(function()
     while true do 
